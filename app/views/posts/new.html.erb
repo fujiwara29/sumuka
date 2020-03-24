@@ -1,0 +1,9 @@
+<div class="content__title">
+  お願いしたい家事内容の作成
+</div>
+
+<%= form_with model: @post, class: :form, local: true do |form| %>
+  <%= form.text_field :title, placeholder: :希望する家事内容の見出し, class: :form__title %>
+  <%= form.text_area :content, placeholder: :希望する家事内容と提供できる住宅スペースの詳細をここに記入してください, class: :form__text %>
+  <%= form.submit '投稿', class: :form__btn %>
+<% end %>
