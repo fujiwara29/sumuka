@@ -4,5 +4,5 @@
 </div>
 
 <% @posts.each do |post| %>
-  <% render partial: "post", locals: { post: post } %>
+  <%= render partial: "post", locals: { post: post } %>
 <% end %>
