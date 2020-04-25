@@ -49,6 +49,5 @@ test:
 #
 production:
   <<: *default
-  database: sumuka_production
-  username: sumuka
-  password: <%= ENV['SUMUKA_DATABASE_PASSWORD'] %>
+  adapter: postgresql
+  encoding: unicode
