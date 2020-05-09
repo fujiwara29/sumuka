@@ -25,6 +25,6 @@ SUMUKA
 ・わからない事は検索して実装できるようにするの大事！  
 ・頼れるものがあれば頼るの大事！  
 ## URL 
-https://fast-earth-50358.herokuapp.com/ 
+https://fast-earth-50358.herokuapp.com/  
 USER:admin  
 PASSWORD:2222
